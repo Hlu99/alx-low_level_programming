@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _indexOf - returns boolean if special  character
  * @a: character to return
@@ -10,7 +9,9 @@
 int _indexOf(char a)
 {
 	int i;
-	char capArr[13] = {'\n', '\t', ' ', '.', ',', ';', ',', '!', '?', '(',')', '{', '}'};
+
+	char capArr[13] = {'\n', '\t', ' ', '.', ',', ';', '.', '!', '?', '(', ')', '{', '}'};
+
 	for (i = 0; i < 13; i++)
 	{
 		if (capArr[i] == a)
