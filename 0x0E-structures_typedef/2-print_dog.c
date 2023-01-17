@@ -11,9 +11,9 @@ void print_dog(struct dog *d)
 
 {
 
-	if (d == NULL )
+	if (d == NULL)
 
-		return; 
+		return;
 
 
 
