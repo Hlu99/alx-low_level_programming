@@ -1,11 +1,7 @@
 #include "lists.h"
 
-
-
 /**
- *
  * add_node - adds a new node at the beginning of a list
- *
  * @head: pointer to the head of the list
  *
  * @str: string to be added
@@ -23,7 +19,9 @@ list_t *add_node(list_t **head, const char *str)
 	int len;
 
 	list_t *new;
+
 	new = malloc(sizeof(list_t));
+
 	if (new == NULL)
 		return (NULL);
 	dup = strdup(str);
